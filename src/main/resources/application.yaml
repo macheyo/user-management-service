@@ -84,12 +84,13 @@ spring:
     removeAbandoned: true
   jpa:
     show-sql: true
+    generate-ddl: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
   security:
     oauth2:
       client:
