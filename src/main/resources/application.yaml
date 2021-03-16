@@ -139,4 +139,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: https://order-mgmt-service-registry.herokuapp.com/eureka/
+      defaultZone: https://kaguvi-service-registry.herokuapp.com/eureka/
